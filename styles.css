@@ -1,105 +1,112 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: border-box;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-  }
-  
-  /* Header */
-  .header {
-    padding: 20px 0;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background: steelblue;
-  }
-  
-  .header__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header__logo {
-    font-size: 30px;
-    font-weight: 700;
-    color: #fff;
-  }
-  
-  /* Nav */
-  .nav {
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-  
-  .nav__link {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 10px;
-    color: #fff;
-    text-decoration: none;
-    transition: color .3s linear;
-    position: relative;
-  }
-  
-  .nav__link:hover {
-    color: yellow;
-  }
-  
-  /* Container */
-  .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Newsfeed */
-  .newsfeed {
-    width: 100%;
-    background: linear-gradient(#fff, #333);
-  }
-  
-  .user-avatar {
-    border-radius: 50%;
-    background: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/%D0%98%D0%B2%D0%B0%D0%BD_%D0%A3%D1%80%D0%B3%D0%B0%D0%BD%D1%82_%283%29_%D0%BD%D0%B0_%D0%90%D0%BB%D1%8B%D1%85_%D0%BF%D0%B0%D1%80%D1%83%D1%81%D0%B0%D1%85_2018_%28cropped%29.jpg);
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-  }
-  
-  /* Footer */
-  
-  .footer {
-    background:rgb(33, 117, 117);
-  }
-  
-  .footer__info {
-    padding: 15px 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .footer__link {
-    color:#fff;
-    text-decoration: none;
-  }
-  
-  .footer__link:hover {
-    color:#333;
-  }
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Header */
+.header {
+  padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: steelblue;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Nav */
+.nav {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: color .3s linear;
+  position: relative;
+}
+
+.nav__link:hover {
+  color: yellow;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Newsfeed */
+.newsfeed {
+  width: 100vw;
+  background: linear-gradient(#fff, #333);
+}
+
+.user-avatar {
+  border-radius: 50%;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/%D0%98%D0%B2%D0%B0%D0%BD_%D0%A3%D1%80%D0%B3%D0%B0%D0%BD%D1%82_%283%29_%D0%BD%D0%B0_%D0%90%D0%BB%D1%8B%D1%85_%D0%BF%D0%B0%D1%80%D1%83%D1%81%D0%B0%D1%85_2018_%28cropped%29.jpg);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+}
+
+/* Footer */
+
+.footer {
+  background: rgb(33, 117, 117);
+}
+
+.footer__info {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: #333;
+}
